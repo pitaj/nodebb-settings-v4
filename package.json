@@ -1,0 +1,38 @@
+{
+  "name": "nodebb-settings-v4",
+  "version": "1.0.0",
+  "description": "Programmatically generate ACP settings pages for your NodeBB plugins",
+  "main": "lib/settings.js",
+  "scripts": {
+    "test": "node tests",
+    "build-docs": "jsdoc ./lib -d ./docs",
+    "document": "jsdoc2md --src ./lib/* > docs.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pitaj/nodebb-settings-v4.git"
+  },
+  "keywords": [
+    "settings",
+    "v4",
+    "nodebb",
+    "plugin",
+    "acp",
+    "admin",
+    "control",
+    "panel"
+  ],
+  "author": "PitaJ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pitaj/nodebb-settings-v4/issues"
+  },
+  "homepage": "https://github.com/pitaj/nodebb-settings-v4#readme",
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb-base": "^5.0.3",
+    "eslint-plugin-import": "^1.14.0",
+    "jsdoc": "^3.4.0",
+    "jsdoc-to-markdown": "^1.3.7"
+  }
+}
